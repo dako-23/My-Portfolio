@@ -1,40 +1,71 @@
 .sidebar {
-    .info-content{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 360px;
-      margin: 0 auto;
-      flex-wrap: wrap;
-      border: 1px solid;
-      border-color: antiquewhite;
-      border-radius: 0.8em;
-    }
+    justify-content: space-between;
+    max-width: 380px;
+    margin: 2em auto;
+    flex-wrap: wrap;
+    /* margin-top: 2em; */
+    border: 1px solid;
+    border-color: antiquewhite;
+    border-radius: 0.8em;
+    padding-top: 4em;
 
     .sidebar-image {
-      /* flex: 1 1 45%; */
-      height: 140px;
-      width: 140px;
-      background: url("/favicon.svg") center/cover no-repeat;
-      background-color: cadetblue;
-      border-radius: 1em;
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        height: 140px;
+        width: 140px;
+        background: url("/avatar.png") center/cover no-repeat;
+        background-color: cadetblue;
+        border-radius: 1em;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .info-content {
+
+        h2 {
+            padding: 0.3em;
+        }
+
+        .role {
+            padding: 0 1em;
+            background-color: #726e6e;
+            border-radius: 0.8em;
+            font-size: 0.9em;
+        }
+    }
+
+    .contact-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 1em;
+
+        p {
+            text-decoration: none;
+            color: #807e7e;
+            font-size: 0.8em;
+        }
+        
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .icon-box{
+            padding: 0.5em 0.7em;
+            background-color: rgb(75, 81, 82);
+            color: cadetblue;
+            font-size: 1.3em;
+            border-radius: 0.6em;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+
+        .contct-info{
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
