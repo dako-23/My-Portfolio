@@ -1,0 +1,40 @@
+.sidebar {
+    .info-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 360px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      border: 1px solid;
+      border-color: antiquewhite;
+      border-radius: 0.8em;
+    }
+
+    .sidebar-image {
+      /* flex: 1 1 45%; */
+      height: 140px;
+      width: 140px;
+      background: url("/favicon.svg") center/cover no-repeat;
+      background-color: cadetblue;
+      border-radius: 1em;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
