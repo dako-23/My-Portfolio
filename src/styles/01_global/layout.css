@@ -4,20 +4,20 @@
 
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     background-color: #3a3838;
     font: 16px/1.5 'Inter', sans-serif;
     color: aliceblue
 }
 
-body>* {
+/* body>* {
     width: 100%;
-}
+} */
 
-.inner {
+/* .inner {
     max-width: 1860px;
-}
+} */
 
 .pulse {
     display: inline-block;
@@ -70,6 +70,19 @@ body>* {
 .animated-section.revealed {
     opacity: 1;
     transform: translateY(0);
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 340px minmax(600px, 1fr);
+    max-width: 1200px;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
 }
 
 .flex-col-center {

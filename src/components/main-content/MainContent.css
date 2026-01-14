@@ -1,0 +1,41 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: rgb(143, 142, 140);
+    border-radius: 0.8em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    padding: 1.5em;
+
+    .about-me {
+
+        p {
+            display: flex;
+            font-size: 0.9em;
+            margin-bottom: 1em;
+            margin-top: 1.7em;
+        }
+
+        .title {
+            position: relative;
+        }
+
+        .title::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 3%;
+            transform: translate(-50%, -100%);
+            width: 6%;
+            height: 5px;
+            background: cadetblue;
+            margin-top: 0.3em;
+            border-radius: 1em;
+        }
+    }
+
+    .service {
+        padding-top: 1em;
+    }
+}

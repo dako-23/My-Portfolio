@@ -1,8 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Sidebar from '../components/sidebar/Sidebar.astro'
+import Sidebar from "../components/sidebar/Sidebar.astro";
+import MainContent from "../components/main-content/MainContent.astro";
 ---
 
 <Layout>
-    <Sidebar />
+    <div class="center">
+        <div class="page">
+            <Sidebar />
+            <MainContent />
+        </div>
+    </div>
 </Layout>
+
