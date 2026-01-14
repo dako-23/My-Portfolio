@@ -4,7 +4,7 @@
     border: 1px solid;
     border-color: rgb(143, 142, 140);
     border-radius: 0.8em;
-    margin-top: 2.5em;
+    margin-top: 3em;
     margin-bottom: 2.5em;
     padding: 1.5em;
 
@@ -52,13 +52,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                /* height: 46px; */
-                /* width: 46px; */
-                /* background-color: rgb(75, 81, 82); */
                 color: cadetblue;
-                /* border-radius: 0.8em; */
-                /* border-top: 1px solid rgba(255, 255, 255, 0.18); */
-                /* border-left: 1px solid rgba(255, 255, 255, 0.18); */
             }
 
             p {
@@ -84,5 +78,9 @@
             display: flex;
             flex-direction: column;
         }
+    }
+
+    .skills{
+        margin-top: 2em;
     }
 }

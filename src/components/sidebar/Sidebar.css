@@ -1,12 +1,12 @@
 .sidebar {
     justify-content: space-between;
     max-width: 320px;
-    margin: 2.5em auto;
+    margin: 3em auto;
     flex-wrap: wrap;
     border: 1px solid;
     border-color: rgb(143, 142, 140);
     border-radius: 0.8em;
-    
+
     padding: 2em;
     position: sticky;
     top: 2.5em;
