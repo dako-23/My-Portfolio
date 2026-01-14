@@ -1,0 +1,44 @@
+---
+import "./MoreInfo.css";
+import Mail from "../icons/Mail.astro";
+import Phone from "../icons/Phone.astro";
+import Pin from "../icons/Pin.astro";
+---
+
+<section class="more-info">
+    <div class="divider"></div>
+    <ul class="contact-list">
+        <li class="contact-item">
+            <div class="icon-box">
+                <Mail />
+            </div>
+            <div class="contact-info">
+                <p class="contact-title">EMAIL</p>
+                <a href="mailto:iordan.megaparts@gmail.com" class="contact-link"
+                    >iordan.megaparts@gmail.com</a
+                >
+            </div>
+        </li>
+        <li class="contact-item">
+            <div class="icon-box">
+                <Phone />
+            </div>
+            <div class="contact-info">
+                <p class="contact-title">PHONE</p>
+                <a href="" class="contact-link">+359 878 333 402</a>
+            </div>
+        </li>
+        <li class="contact-item">
+            <div class="icon-box">
+                <Pin />
+            </div>
+            <div class="contact-info">
+                <p class="contact-title">LOCATION</p>
+                <a
+                    href="https://maps.app.goo.gl/z9Y1fDUpVaT12Ubs8"
+                    class="contact-link">Sofia, Bulgaria</a
+                >
+            </div>
+        </li>
+    </ul>
+</section>
