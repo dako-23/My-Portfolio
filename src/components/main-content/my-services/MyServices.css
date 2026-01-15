@@ -1,0 +1,45 @@
+.service {
+    padding-top: 1em;
+
+    h2 {
+        padding-bottom: 0.5em;
+    }
+
+    .service-list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        gap: 2em;
+
+        .icon-box-service {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: cadetblue;
+        }
+
+        p {
+            text-decoration: none;
+            color: #bbbbbb;
+            font-size: 0.9em;
+        }
+    }
+
+    .service-item {
+        display: flex;
+        flex: 1 1 300px;
+        background-color: #413e3e;
+        padding: 1em;
+        gap: 1em;
+        align-items: center;
+        border-radius: 0.8em;
+        border-top: 1px solid rgba(255, 255, 255, 0.18);
+        border-left: 1px solid rgba(255, 255, 255, 0.18);
+        cursor: pointer;
+    }
+
+    .service-info {
+        display: flex;
+        flex-direction: column;
+    }
+}
