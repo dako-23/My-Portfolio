@@ -3,7 +3,6 @@ import "./MainContent.css";
 import AboutMe from "./about-me/AboutMe.astro";
 import MyServices from "./my-services/MyServices.astro";
 import MySkills from "./my-skills/MySkills.astro";
-import scrollIndicatorClientUrl from "../../js/scrollIndicator.client.js?url";
 ---
 
 <section class="main-content">
@@ -12,4 +11,6 @@ import scrollIndicatorClientUrl from "../../js/scrollIndicator.client.js?url";
     <MySkills />
 </section>
 
-<script type="module" src={scrollIndicatorClientUrl}></script>
+<script type="module" is:inline>
+    import "../../js/scrollIndicator.client.js";
+</script>
