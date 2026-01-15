@@ -1,0 +1,25 @@
+.about-me {
+    p {
+        display: flex;
+        font-size: 0.9em;
+        margin-bottom: 1em;
+        margin-top: 1.7em;
+    }
+
+    .title {
+        position: relative;
+    }
+
+    .title::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 3%;
+        transform: translate(-50%, -100%);
+        width: 6%;
+        height: 5px;
+        background: cadetblue;
+        margin-top: 0.3em;
+        border-radius: 1em;
+    }
+}
