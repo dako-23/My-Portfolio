@@ -1,110 +1,15 @@
 ---
 import "./MainContent.css";
-import Code from "./icons/Code.astro";
-import Palette from "./icons/Palette.astro";
-import Server from "./icons/Server.astro";
-import Cloud from "./icons/Cloud.astro";
+import AboutMe from "./about-me/AboutMe.astro";
+import MyServices from "./my-services/MyServices.astro";
+import MySkills from "./my-skills/MySkills.astro";
+import scrollIndicatorClientUrl from "../../js/scrollIndicator.client.js?url";
 ---
 
 <section class="main-content">
-    <section class="about-me">
-        <h1 class="title">About Me</h1>
-        <p>
-            I’m a Full-Stack developer with a strong motivation to grow and a
-            solid foundation built through hands-on projects and completed
-            courses. I enjoy turning ideas into real, working applications and
-            continuously improving my skills by building, experimenting, and
-            learning from practice.
-        </p>
-        <p>
-            I have experience working across the full stack, with a primary
-            focus on modern frontend technologies like React, Next.js, and
-            Astro, as well as backend development with Node.js, Express, and
-            MongoDB. Along the way, I’ve also gained practical exposure to
-            Docker, basic CI/CD workflows, and cloud infrastructure concepts.
-        </p>
-    </section>
-    <section class="service">
-        <h2>What I'm Doing</h2>
-        <ul class="service-list">
-            <li class="service-item">
-                <div class="icon-box-service">
-                    <Code />
-                </div>
-                <div class="service-info">
-                    <h3 class="service-title">Web development</h3>
-                    <p>
-                        High-quality development of sites at the professional
-                        level.
-                    </p>
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="icon-box-service">
-                    <Cloud />
-                </div>
-                <div class="service-info">
-                    <h3 class="service-title">DevOps</h3>
-                    <p>
-                        Hands-on experience with Docker, CI/CD workflows, and
-                        basic cloud infrastructure to support modern web
-                        applications.
-                    </p>
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="icon-box-service">
-                    <Palette />
-                </div>
-                <div class="service-info">
-                    <h3 class="service-title">UI/UX Design</h3>
-                    <p>
-                        The most modern and high-quality design made at a
-                        professional level.
-                    </p>
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="icon-box-service">
-                    <Server />
-                </div>
-                <div class="service-info">
-                    <h3 class="service-title">Backend Development</h3>
-                    <p>
-                        High-performance backend services designed for
-                        scalability and seamless user experience.
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section class="skills">
-        <h2>Skills</h2>
-        <div class="skills-images">
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                alt="React"
-            />
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                alt="Git"
-            />
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-                alt="Next.js"
-            />
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-                alt="TypeScript"
-            />
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-                alt="Docker"
-            />
-            <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original-wordmark.svg"
-                alt="Astro"
-            />
-        </div>
-    </section>
+    <AboutMe />
+    <MyServices />
+    <MySkills />
 </section>
+
+<script type="module" src={scrollIndicatorClientUrl}></script>
